@@ -1,0 +1,4 @@
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.AssemblyInfoInputs.cache
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.AssemblyInfo.cs
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.csproj.CoreCompileInputs.cache
