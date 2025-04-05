@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fantasy_Rpg_game;
 
 namespace Fantasy_Rpg_game
 {
@@ -31,19 +32,19 @@ namespace Fantasy_Rpg_game
         public int Durability
         {
             get { return durability; }
-            set { durability = 100; }
+            set { durability = value; }
         }
 
         public int PhysicalDamage
         {
             get { return physicalDamage; }
-            set { physicalDamage = 0; }
+            set { physicalDamage = value; }
         }
 
         public int MagicalDamage
         {
             get { return magicalDamage; }
-            set { magicalDamage = 0; }
+            set { magicalDamage = value; }
         }
 
         public string WeaponRarity

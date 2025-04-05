@@ -2,3 +2,14 @@ C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy
 C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.AssemblyInfoInputs.cache
 C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.AssemblyInfo.cs
 C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.csproj.CoreCompileInputs.cache
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.sourcelink.json
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\bin\Debug\net8.0\Fantasy Rpg game.exe
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\bin\Debug\net8.0\Fantasy Rpg game.deps.json
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\bin\Debug\net8.0\Fantasy Rpg game.runtimeconfig.json
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\bin\Debug\net8.0\Fantasy Rpg game.dll
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\bin\Debug\net8.0\Fantasy Rpg game.pdb
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.dll
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\refint\Fantasy Rpg game.dll
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.pdb
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\Fantasy Rpg game.genruntimeconfig.cache
+C:\My Stuff\Coding\C#\Fantasy Rpg game\Fantasy Rpg game\obj\Debug\net8.0\ref\Fantasy Rpg game.dll
