@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Fantasy_Rpg_game;
 using Fantasy_Rpg_game.specialAttacks;
+using Fantasy_Rpg_game.weapons;
 
 namespace Fantasy_Rpg_game
 {
@@ -65,6 +65,7 @@ namespace Fantasy_Rpg_game
             this.weapon = weapon;
 
             ApplyRaceBonus();
+            SpecialAttack();
         }
 
         // Race characteristics
@@ -92,7 +93,7 @@ namespace Fantasy_Rpg_game
             }
         }
 
-        private void SpecialAttck()
+        private void SpecialAttack()
         {
             switch (specialAttack) {
                 case WarriorSpecialAttack.SpinSwing:
