@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Fantasy_Rpg_game.specialAttacks;
@@ -66,6 +67,7 @@ namespace Fantasy_Rpg_game
 
             ApplyRaceBonus();
             SpecialAttack();
+            
         }
 
         // Race characteristics
@@ -93,6 +95,7 @@ namespace Fantasy_Rpg_game
             }
         }
 
+        // Special attacks
         private void SpecialAttack()
         {
             switch (specialAttack) {
@@ -113,6 +116,18 @@ namespace Fantasy_Rpg_game
                     weapon.Durability -= 20;
                     break;
             }
+        }
+
+
+        // Attack function
+        public void Attack(Warrior target)
+        {
+            string target_name = target.Name;
+            int target_health = target.Health;
+            int self_rage = this.rage;
+            this.rage += 20;
+            int remaining_health = (target_health - this.strength);
+            Console.WriteLine($"{this.name} attaked {target_name}, remaining health is {remaining_health}");
         }
 
         // String
