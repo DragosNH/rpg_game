@@ -4,20 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fantasy_Rpg_game;
+using Fantasy_Rpg_game.specialAttacks;
 
 namespace Fantasy_Rpg_game
 {
     internal class Warrior
     {
+        // Variables
         private string name;
         private Race race;
         private int health;
         private int rage;
         private int strength;
         private int speed;
-        private string specialAttack;
+        private WarriorSpecialAttack specialAttack;
         private Weapon weapon;
 
+        // Getters and Setters
         public string Name
         {
             get { return name; }
@@ -48,13 +51,9 @@ namespace Fantasy_Rpg_game
             set { speed = value; }
         }
 
-        public string SpecialAttack
-        {
-            get { return specialAttack; }
-            set { specialAttack = value; }
-        }
 
-        public Warrior(string name, Race race, int health, int rage, int strength, int speed, string specialAttack, Weapon weapon)
+        // Constructor
+        public Warrior(string name, Race race, int health, int rage, int strength, int speed, WarriorSpecialAttack specialAttack, Weapon weapon)
         {
             this.name = name;
             this.race = race;
@@ -68,6 +67,7 @@ namespace Fantasy_Rpg_game
             ApplyRaceBonus();
         }
 
+        // Race characteristics
         private void ApplyRaceBonus()
         {
             switch (race) 
@@ -92,9 +92,32 @@ namespace Fantasy_Rpg_game
             }
         }
 
+        private void SpecialAttck()
+        {
+            switch (specialAttack) {
+                case WarriorSpecialAttack.SpinSwing:
+                    strength += 10;
+                    weapon.Durability -= 10;
+                    break;
+                case WarriorSpecialAttack.HammerDrop:
+                    strength += 15;
+                    weapon.Durability -= 15;
+                    break;
+                case WarriorSpecialAttack.DivineSlash:
+                    strength += 20;
+                    weapon.Durability -= 20;
+                    break;
+                case WarriorSpecialAttack.BoneBraker:
+                    strength += 20;
+                    weapon.Durability -= 20;
+                    break;
+            }
+        }
+
+        // String
         public override string ToString()
         {
-            return $"Name: {name}\nRace: {race}\nHealth: {health}\nRage: {rage}\nStrength: {strength}\nSpeed: {speed}\nSpecial Attack: {specialAttack}\nWeapon: {weapon.WeaponName}";
+            return $"Name: {name}\nRace: {race}\nHealth: {health}\nRage: {rage}\nStrength: {strength}\nSpeed: {speed}\nSpecial Attack: {specialAttack} \nWeapon: {weapon.WeaponName}";
         }
 
     }

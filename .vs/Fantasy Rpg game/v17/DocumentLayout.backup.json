@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\specialattacks\\warriorspecialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\specialattacks\\warriorspecialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WarriorSpecialAttack.cs",
+              "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\specialAttacks\\WarriorSpecialAttack.cs",
+              "RelativeDocumentMoniker": "Fantasy Rpg game\\specialAttacks\\WarriorSpecialAttack.cs",
+              "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\specialAttacks\\WarriorSpecialAttack.cs",
+              "RelativeToolTip": "Fantasy Rpg game\\specialAttacks\\WarriorSpecialAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:17:50.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Race.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Race.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Race.cs",
@@ -43,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Weapon.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Weapon.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Weapon.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Weapon.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA0wBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:39:47.032Z",
               "EditorCaption": ""
@@ -62,20 +79,20 @@
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Warrior.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Warrior.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Warrior.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwHcAAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:38:45.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Program.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Program.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Program.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:37:28.313Z",
               "EditorCaption": ""

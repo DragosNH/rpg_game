@@ -9,6 +9,7 @@ namespace Fantasy_Rpg_game
 {
     internal class Weapon
     {
+        // Variables
         private string weaponName;
         private string weaponType;
         private int durability;
@@ -16,7 +17,7 @@ namespace Fantasy_Rpg_game
         private int magicalDamage;
         private string weaponRarity;
 
-
+        // Getters and Stters
         public string WeaponName
         {
             get { return weaponName; }
@@ -54,7 +55,7 @@ namespace Fantasy_Rpg_game
         }
 
 
-
+        // Constructor
         public Weapon(string weaponName, string weaponType, int durability, int physicalDamage, int magicalDamage, string weaponRarity)
         {
             this.weaponName = weaponName;
