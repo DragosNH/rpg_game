@@ -7,7 +7,7 @@ This is just a simple console app made in C#.
 Because i want to polish my skills doing something that I enjoy and that helps me better understand and apply c# syntax.
 
 ### For whom?
-Mostly for me since I want to improve my algorithic mogic doing something that I find fun.
+Mostly for me since I want to improve my algorithic logic doing something that I find fun.
 
 ## What is it about?
 
