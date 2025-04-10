@@ -10,7 +10,7 @@ namespace Fantasy_Rpg_game.weapons
     {
         // Variables
         private string weaponName;
-        private string weaponType;
+        private WeaponType weaponType;
         private int durability;
         private int physicalDamage;
         private int magicalDamage;
@@ -21,12 +21,6 @@ namespace Fantasy_Rpg_game.weapons
         {
             get { return weaponName; }
             set { weaponName = value; }
-        }
-
-        public string Weapontype
-        {
-            get { return weaponType; }
-            set { weaponType = value; }
         }
 
         public int Durability
@@ -51,7 +45,7 @@ namespace Fantasy_Rpg_game.weapons
 
 
         // Constructor
-        public Weapon(string weaponName, string weaponType, int durability, int physicalDamage, int magicalDamage, WeaponRarity weaponRarity)
+        public Weapon(string weaponName, WeaponType weaponType, int durability, int physicalDamage, int magicalDamage, WeaponRarity weaponRarity)
         {
             this.weaponName = weaponName;
             this.weaponType = weaponType;

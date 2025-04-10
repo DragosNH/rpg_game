@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Fantasy_Rpg_game.specialAttacks;
 using Fantasy_Rpg_game.weapons;
 
-namespace Fantasy_Rpg_game
+namespace Fantasy_Rpg_game.Class
 {
     internal class Warrior
     {
@@ -124,10 +124,10 @@ namespace Fantasy_Rpg_game
         {
             string target_name = target.Name;
             int target_health = target.Health;
-            int self_rage = this.rage;
-            this.rage += 20;
-            int remaining_health = (target_health - this.strength);
-            Console.WriteLine($"{this.name} attaked {target_name}, remaining health is {remaining_health}");
+            int self_rage = rage;
+            rage += 20;
+            int remaining_health = target_health - strength;
+            Console.WriteLine($"{name} attaked {target_name}, remaining health is {remaining_health}");
         }
 
         // String

@@ -1,5 +1,6 @@
 ﻿using System;
 using Fantasy_Rpg_game;
+using Fantasy_Rpg_game.Class;
 using Fantasy_Rpg_game.specialAttacks;
 using Fantasy_Rpg_game.weapons;
 
