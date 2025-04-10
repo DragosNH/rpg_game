@@ -12,6 +12,7 @@ namespace Fantasy_Rpg_game.weapons
         private string weaponName;
         private WeaponType weaponType;
         private int durability;
+        private int weaponSpeed;
         private int physicalDamage;
         private int magicalDamage;
         private WeaponRarity weaponRarity;
@@ -27,6 +28,12 @@ namespace Fantasy_Rpg_game.weapons
         {
             get { return durability; }
             set { durability = value; }
+        }
+
+        public int WeaponSpeed
+        {
+            get { return weaponSpeed; }
+            set { weaponSpeed = value; }
         }
 
         public int PhysicalDamage
@@ -45,11 +52,12 @@ namespace Fantasy_Rpg_game.weapons
 
 
         // Constructor
-        public Weapon(string weaponName, WeaponType weaponType, int durability, int physicalDamage, int magicalDamage, WeaponRarity weaponRarity)
+        public Weapon(string weaponName, WeaponType weaponType, int durability, int weaponSpeed,int physicalDamage, int magicalDamage, WeaponRarity weaponRarity)
         {
             this.weaponName = weaponName;
             this.weaponType = weaponType;
             this.durability = durability;
+            this.weaponSpeed = weaponSpeed;
             this.physicalDamage = physicalDamage;
             this.magicalDamage = magicalDamage;
             this.weaponRarity = weaponRarity;
@@ -57,7 +65,7 @@ namespace Fantasy_Rpg_game.weapons
             WeaponRarityType();
         }
 
-        // Rarity attributes
+        // ---- Rarity attributes -----
         private void WeaponRarityType()
         {
             switch (weaponRarity)
@@ -85,6 +93,14 @@ namespace Fantasy_Rpg_game.weapons
             }
         }
 
+        // ---- Weapon Type ----
+        private void WeaponTypeStats()
+        {
+            switch (weaponType)
+            {
+                //// ********** to do... **************
+            }
+        }
 
         public override string ToString() {
             return $"Name: {weaponName} \nType: {weaponType} \nDurability: {durability} \nPhysical  Damage: {physicalDamage} \nMagical Damage: {magicalDamage} \nRarity: {weaponRarity}";

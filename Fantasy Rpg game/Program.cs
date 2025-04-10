@@ -8,10 +8,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Weapon broadSword = new Weapon("Broad Sword", "Sword", 100, 20, 0, WeaponRarity.Normal);
+        Weapon broadSword = new Weapon("Broad Sword", WeaponType.Sword, 100, 20, 20, 0, WeaponRarity.Normal);
         Warrior sam = new Warrior("Sam", Race.Human, 100, 0, 50, 50, WarriorSpecialAttack.DivineSlash, broadSword);
         
-        Weapon woodSword = new Weapon("Wood Sword", "Sword", 50, 10, 0, WeaponRarity.Normal);
+        Weapon woodSword = new Weapon("Wood Sword", WeaponType.Sword, 50, 20, 10, 0, WeaponRarity.Normal);
         Warrior novice = new Warrior("novice", Race.Orc, 100, 0, 50, 50, WarriorSpecialAttack.SpinSwing, woodSword);
 
         Console.WriteLine("---Fight Scene---");
