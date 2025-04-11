@@ -9,7 +9,7 @@ using Fantasy_Rpg_game.weapons;
 
 namespace Fantasy_Rpg_game.Class
 {
-    internal class Warrior
+    internal class Warrior : Character
     {
         // Variables
         private string name;
@@ -17,6 +17,7 @@ namespace Fantasy_Rpg_game.Class
         private int health;
         private int rage;
         private int strength;
+        private int intellect;
         private int speed;
         private WarriorSpecialAttack specialAttack;
         private Weapon weapon;
@@ -46,6 +47,12 @@ namespace Fantasy_Rpg_game.Class
             set { strength = value; }
         }
 
+        public int Intellect
+        {
+            get { return intellect; }
+            set { intellect = value; }
+        }
+
         public int Speed
         {
             get { return speed; }
@@ -54,13 +61,14 @@ namespace Fantasy_Rpg_game.Class
 
 
         // Constructor
-        public Warrior(string name, Race race, int health, int rage, int strength, int speed, WarriorSpecialAttack specialAttack, Weapon weapon)
+        public Warrior(string name, Race race, int health, int rage, int strength,int intellect, int speed, WarriorSpecialAttack specialAttack, Weapon weapon)
         {
             this.name = name;
             this.race = race;
             this.health = health;
             this.rage = rage;
             this.strength = strength;
+            this.Intellect = intellect;
             this.speed = speed;
             this.specialAttack = specialAttack;
             this.weapon = weapon;
@@ -81,6 +89,7 @@ namespace Fantasy_Rpg_game.Class
                     break;
                 case Race.Dwarf:
                     strength += 10;
+                    Intellect -= 10;
                     speed -= 5;
                     break;
                 case Race.Orc:

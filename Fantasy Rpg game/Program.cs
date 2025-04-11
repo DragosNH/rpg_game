@@ -8,11 +8,14 @@ public class Program
 {
     public static void Main(string[] args)
     {
+
+        // Characters stats order:
+        // -name -race -health -rage/mana -strength -intellect -speed -specialAttack -weapon
         Weapon broadSword = new Weapon("Broad Sword", WeaponType.Sword, 100, 20, 20, 0, WeaponRarity.Normal);
-        Warrior sam = new Warrior("Sam", Race.Human, 100, 0, 50, 50, WarriorSpecialAttack.SpinSwing, broadSword);
+        Warrior sam = new Warrior("Sam", Race.Human, 100, 0, 20, 50, 50, WarriorSpecialAttack.SpinSwing, broadSword);
         
         Weapon woodSword = new Weapon("Wood Sword", WeaponType.Sword, 50, 20, 10, 0, WeaponRarity.Normal);
-        Warrior novice = new Warrior("novice", Race.Orc, 100, 0, 50, 50, WarriorSpecialAttack.SpinSwing, woodSword);
+        Warrior novice = new Warrior("novice", Race.Orc, 100, 0, 50, 20, 50, WarriorSpecialAttack.SpinSwing, woodSword);
 
         Console.WriteLine("---Fight Scene---");
         sam.Attack(novice);

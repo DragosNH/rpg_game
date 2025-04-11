@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\classes\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\classes\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\ressources\\characterresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\ressources\\characterresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\ressources\\ressourcetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|solutionrelative:fantasy rpg game\\ressources\\ressourcetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{127A4C1D-87E8-420E-A046-88CB89EE8471}|Fantasy Rpg game\\Fantasy Rpg game.csproj|c:\\my stuff\\coding\\c#\\fantasy rpg game\\fantasy rpg game\\classes\\sorcerer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterResource.cs",
+              "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Ressources\\CharacterResource.cs",
+              "RelativeDocumentMoniker": "Fantasy Rpg game\\Ressources\\CharacterResource.cs",
+              "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Ressources\\CharacterResource.cs",
+              "RelativeToolTip": "Fantasy Rpg game\\Ressources\\CharacterResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:57:21.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RessourceType.cs",
+              "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Ressources\\RessourceType.cs",
+              "RelativeDocumentMoniker": "Fantasy Rpg game\\Ressources\\RessourceType.cs",
+              "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Ressources\\RessourceType.cs",
+              "RelativeToolTip": "Fantasy Rpg game\\Ressources\\RessourceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:56:42.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Character.cs",
+              "RelativeDocumentMoniker": "Fantasy Rpg game\\Character.cs",
+              "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Character.cs",
+              "RelativeToolTip": "Fantasy Rpg game\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:43:15.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SorcererSpecialAttack.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\specialAttacks\\SorcererSpecialAttack.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\specialAttacks\\SorcererSpecialAttack.cs",
@@ -46,12 +97,11 @@
               "RelativeToolTip": "Fantasy Rpg game\\specialAttacks\\SorcererSpecialAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:09:48.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T15:09:48.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\weapons\\Weapon.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\weapons\\Weapon.cs",
@@ -59,12 +109,11 @@
               "RelativeToolTip": "Fantasy Rpg game\\weapons\\Weapon.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAuwGQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:24:39.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T15:24:39.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "WeaponType.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\weapons\\WeaponType.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\weapons\\WeaponType.cs",
@@ -72,44 +121,43 @@
               "RelativeToolTip": "Fantasy Rpg game\\weapons\\WeaponType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:22:30.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T15:22:30.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Sorcerer.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Classes\\Sorcerer.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Classes\\Sorcerer.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Classes\\Sorcerer.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Classes\\Sorcerer.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T15:21:48.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Warrior.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Classes\\Warrior.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Classes\\Warrior.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Classes\\Warrior.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Classes\\Warrior.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAASwGAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:38:45.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Program.cs",
               "RelativeDocumentMoniker": "Fantasy Rpg game\\Program.cs",
               "ToolTip": "C:\\My Stuff\\Coding\\C#\\Fantasy Rpg game\\Fantasy Rpg game\\Program.cs",
               "RelativeToolTip": "Fantasy Rpg game\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T14:37:28.313Z",
               "EditorCaption": ""
