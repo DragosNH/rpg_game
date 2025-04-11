@@ -66,8 +66,6 @@ namespace Fantasy_Rpg_game.Class
             this.weapon = weapon;
 
             ApplyRaceBonus();
-            SpecialAttack();
-            
         }
 
         // Race characteristics
@@ -96,12 +94,13 @@ namespace Fantasy_Rpg_game.Class
         }
 
         // Special attacks
-        private void SpecialAttack()
+        public void SpecialAttack(Warrior target)
         {
             switch (specialAttack) {
                 case WarriorSpecialAttack.SpinSwing:
-                    strength += 10;
+                    target.health -= (strength + 10);
                     weapon.Durability -= 10;
+                    this.rage -= 5;
                     break;
                 case WarriorSpecialAttack.HammerDrop:
                     strength += 15;
@@ -116,6 +115,8 @@ namespace Fantasy_Rpg_game.Class
                     weapon.Durability -= 20;
                     break;
             }
+
+            Console.WriteLine($"{name} used {specialAttack} on {target.Name}!");
         }
 
 
